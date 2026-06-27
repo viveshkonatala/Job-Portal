@@ -1,9 +1,9 @@
 # Job Portal
 
-## 📌 Project Overview
+##  Project Overview
 A Job Portal application developed using Spring Boot that allows companies to manage job postings and enables users to explore job opportunities. The project follows a layered architecture using Controller, Service, Repository, and Entity classes.
 
-## ✨ Features
+##  Features
 - Company Management
 - Job Management
 - Contact Form API
@@ -25,7 +25,7 @@ A Job Portal application developed using Spring Boot that allows companies to ma
 - Pagination & Sorting
 - Swagger API Documentation
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Java
 - Spring Boot
 - Spring Data JPA
@@ -34,7 +34,7 @@ A Job Portal application developed using Spring Boot that allows companies to ma
 - Docker
 - Git & GitHub
 
-## 📂 Project Structure
+##  Project Structure
 src/
 ├── main/
 │   ├── java/
@@ -42,19 +42,19 @@ src/
 │   └── ...
 └── test/
 
-## ⚙️ Prerequisites
+##  Prerequisites
 - Java 17+
 - Maven
 - MySQL
 - Git
 
-## 🚀 Installation
+##  Installation
 1. Clone the repository.
 2. Configure the MySQL database.
 3. Update `application.properties`.
 4. Run the application using Maven.
 
-## 📡 API Endpoints
+##  API Endpoints
 ### Company APIs
 - GET /companies
 - POST /companies
@@ -64,14 +64,14 @@ src/
 ### Contact APIs
 - POST /contact
 
-## 🗄️ Database
+##  Database
 The project uses MySQL with SQL scripts available under:
 - jobportal-schema.sql
 - jobportal-data.sql
 
-## 🐳 Docker
+##  Docker
 Run using:
 docker compose up
 
-## 👨‍💻 Author
+##  Author
 Vivesh Konathala
